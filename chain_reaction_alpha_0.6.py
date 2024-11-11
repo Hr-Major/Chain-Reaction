@@ -207,7 +207,7 @@ def draw_game(game: Game):
     pygame.display.flip()
 
 class MovingBlob:
-    def __init__(self, start_pos, end_pos, color, start_time, duration=0.4):
+    def __init__(self, start_pos, end_pos, color, start_time, duration=0.2):
         self.start_pos = start_pos
         self.end_pos = end_pos
         self.color = color
